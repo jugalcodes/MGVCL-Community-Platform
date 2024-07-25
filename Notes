@@ -1,0 +1,43 @@
+1. firstly create react app using vite
+    1.1 npm create vite@latest
+        1.1.1 select react and javascript
+
+2. install node modules using npm install
+
+3. install tailwind css modules from its website
+    3.1 npm install -D tailwindcss postcss autoprefixer
+    3.2 npx tailwindcss init -p
+    3.3 then go to tailwind.config file and paste text from the file
+    3.4 then go to index.css and copy the 3 lines
+    3.5 thus ready to go with tailwind css
+
+4. go to main folder to create github repo for frontend and write this command in TERMINAL.
+    4.1 git init
+    4.2 git add .
+    4.3 git commit -m "we installed the react and tailwind css"
+
+    4.4 now go to github account from website and create a repo and dont add the READMe file. and paste this codes into TERMINAL
+        4.4.1 git remote add origin https://github.com/jugalcodes/mern-blogsite.git
+        4.4.2 git branch -M main
+        4.4.3 git push -u origin main
+        4.4.4 now we are done with the GITHUB
+    
+5. now create the appropriate PAGES and their specific ROUTES
+
+6. to show the UI-Components using Tailwind css we can use "Flowbite react" it is similar to bootstrap and use this commands: 
+    6.1 npm i flowbite-react
+    6.2 then add the content and plugins into tailwind css
+
+7. We used Line clamp library of TAILWIND css in title to make it only for 2 lines if greater than 2 lines then it will be denoted as "..." only for the "POSTCARD".
+
+NOTES: 
+1. whitespace nowrap : will prevent wrapping that is no next line
+2. text-sm : text size to small
+3. sm:text-xl : this means if the size if >mobile size then the font will be xl
+4. dark:text-white : this means when we use white mode then text color will be white
+5. pill: makes the button or anything border radius more circular that is increases radius
+6. w:width && h: height
+
+FUNCTIONALITIES:::
+
+1. We have given that progress bar over the image in DashProfile using react-circular-progressbar

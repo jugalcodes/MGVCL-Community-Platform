@@ -1,0 +1,14 @@
+TO RUN THE PROJECT:
+1. Download the project from GITHUB as zip file
+2. on the local system then unzip the folder
+3. download the dependecies if necessary 
+    3.1 for FRONTEND 
+        3.1.1 go to client folder in terminal (cd client)
+        3.1.2 write => npm install ____ (write the dependcies)
+
+    3.2 for BACKEND
+        3.2.1 install the dependencies or libraries if required using (npm install ____)
+        3.2.2 write => nodemon api/index.js (in terminal)
+
+=============== OR ================
+
