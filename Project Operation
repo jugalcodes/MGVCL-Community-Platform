@@ -12,3 +12,13 @@ TO RUN THE PROJECT:
 
 =============== OR ================
 
+1. Open a folder in VS Code
+2. Open terminal 
+3. write => git clone https://github.com/jugalcodes/MGVCL-Community-Platform.git
+4. cd ____ (folder name)
+5. npm i (to download the node modules)
+6. use npm ___ (if any lib/dependency required to run the project)
+7. cd client 
+    7.1 npm run dev
+8. cd .. 
+9. in the main folder() write => nodemon api/index.js
